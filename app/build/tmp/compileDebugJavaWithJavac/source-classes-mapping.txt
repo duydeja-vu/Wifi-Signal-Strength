@@ -1,0 +1,4 @@
+com/example/wifisignalstrength/BuildConfig.java
+ com.example.wifisignalstrength.BuildConfig
+com/example/wifisignalstrength/MainActivity.java
+ com.example.wifisignalstrength.MainActivity
