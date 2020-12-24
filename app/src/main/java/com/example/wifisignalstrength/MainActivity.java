@@ -21,12 +21,6 @@ public class MainActivity extends AppCompatActivity {
     static WifiManager wifiManager;
     static TextView strengthValue, evaluateValue, history1, history2, history3;
     static Button enterButton;
-    ArrayList<String> results = new ArrayList<>();
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,12 +35,6 @@ public class MainActivity extends AppCompatActivity {
         history1 = (TextView) findViewById(R.id.history1);
         history2 = (TextView) findViewById(R.id.history2);
         history3 = (TextView) findViewById(R.id.history3);
-
-
-        results.add("0");
-        results.add("0");
-        results.add("0");
-
     }
 
     public void onReceive(WifiManager wifiManager) {
